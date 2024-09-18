@@ -1,0 +1,67 @@
+:root{
+    --text-plain-color:#B6B6B6;
+    --text-mini-header-color: #333333;
+    --header-text-color: #95E1D3;
+    --hover-header-text-color:#F38181;
+}
+
+body{
+    color: var(--text-color);
+
+}
+
+.first-header{
+    color: var(--header-text-color);
+}
+
+.mogo {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 1.22;
+    font-size: 30px;
+    color: var(--header-text-color);
+}
+
+.mogo:hover {
+    color: var(--hover-header-text-color);
+}
+
+h3, .first-header {
+    font-family: 'Montserrat';
+}
+
+h2 {
+    font-family: 'Kaushan Script';
+}
+
+p {
+    font-family: 'Roboto';
+    color: var(--text-plain-color);
+}
+
+.team-name {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 1.22;
+    font-size: 14px;
+}
+
+.team-profession {
+    font-family: 'Roboto';
+    color: var(--text-plain-color);
+    font-weight: 300;
+    line-height: 1.17;
+    font-size: 15px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 1.22;
+    font-size: 14px;
+    color: var(--header-text-color);
+}
+
+.nav-link:hover{
+    color: var(--hover-header-text-color);
+}
